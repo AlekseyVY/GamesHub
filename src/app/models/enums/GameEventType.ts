@@ -1,0 +1,7 @@
+export enum GameEventType {
+  // player movements
+  PLAYER_MOVE_LEFT = 'PLAYER_MOVE_LEFT',
+  PLAYER_MOVE_RIGHT = 'PLAYER_MOVE_RIGHT',
+  PLAYER_JUMP = 'PLAYER_JUMP',
+  PLAYER_FALL = 'PLAYER_FALL',
+}
